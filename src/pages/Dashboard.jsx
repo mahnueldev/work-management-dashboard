@@ -1,10 +1,10 @@
 import React from 'react';
-import { Main } from '../layouts';
+import { CardSect } from '../layouts';
 
 const Dashboard = () => {
   return (
-    <section className=' flex'>
-      <Main />
+    <section className=' flex p-10 mt-10'>
+      <CardSect />
     </section>
   );
 };

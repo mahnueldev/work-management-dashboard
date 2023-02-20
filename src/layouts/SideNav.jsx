@@ -8,7 +8,7 @@ const SideNav = () => {
 
   return (
     <section className='bg-light-100 w-16 flex-col justify-center h-screen border-r-2 border-light-300'>
-      <span className='flex justify-center text-2xl mt-2 h-2/6'>
+      <span className='flex justify-center text-3xl mt-2 h-2/6'>
         <IoLogoApple />
       </span>
       <div className='flex justify-center items-center'>
@@ -23,7 +23,7 @@ const SideNav = () => {
                   }`}
                   href={item.to}
                 >
-                  <span className='text-2xl'>{item.icon}</span>
+                  <span className='text-3xl'>{item.icon}</span>
                 </a>
               </li>
             );

@@ -16,7 +16,7 @@ const SideNav = () => {
               <li key={i} className='mr-8 flex-row first:ml-8'>
                 <a
                   className={`text-red-300 ${
-                    currentLink ? 'active:text-red-300' : 'text-dark-100'
+                    currentLink ? 'active:text-red-300 ' : 'text-dark-200'
                   }`}
                   href={item.to}
                 >
@@ -31,9 +31,9 @@ const SideNav = () => {
         {user.map((item, i) => {
           return (
             <Fragment>
-            <div className='mr-4 text-sm'>
-                <h2 className='text-dark-400'>{item.firstname} {''} {item.surname}</h2>  
-            <p className='text-xs text-dark-100'>{item.occupation}</p>
+            <div className='mr-4 '>
+                <h2 className='text-dark-400 text-2xl'>{item.firstname} {''} {item.surname}</h2>  
+            <p className='text-xs text-dark-100 text-xl'>{item.occupation}</p>
             </div>
             <img src={item.image} alt='' className='w-8 h-8 rounded-full bg-cover' />
             </Fragment>

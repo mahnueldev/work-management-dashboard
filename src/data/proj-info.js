@@ -1,0 +1,86 @@
+import { v4 as uuidv4 } from 'uuid';
+import { IoIosAddCircle } from 'react-icons/io';
+import Lily from '../images/Lily.jpg';
+
+const projinfo = [
+  {
+    id: uuidv4(),
+    icon: <IoIosAddCircle />,
+    reporter: 'Aremu Bisi',
+    created: '2022-09-16T09:39:25.595Z',
+    due: '2022-09-16T09:39:25.595Z',
+    stats: '',
+    team: [
+      {
+        name: 'John Doe',
+        image: Lily,
+      },
+      {
+        name: 'Aremu Bisi',
+        image: Lily,
+      },
+      {
+        name: 'Sonya Olaniyi',
+        image: Lily,
+      },
+      {
+        name: 'Agatha Smith',
+        image: Lily,
+      },
+      {
+        name: 'Lola Rae',
+        image: Lily,
+      },
+    ],
+    value: '56',
+  },
+  {
+    id: uuidv4(),
+    icon: <IoIosAddCircle />,
+    reporter: 'Tega Rose',
+    created: '2022-09-16T09:39:25.595Z',
+    due: '2022-09-16T09:39:25.595Z',
+    stats: '',
+    team: [
+      {
+        name: 'John Doe',
+        image: Lily,
+      },
+      {
+        name: 'Agatha Smith',
+        image: Lily,
+      },
+      {
+        name: 'Lola Rae',
+        image: Lily,
+      },
+    ],
+    value: '40',
+  },
+  {
+    id: uuidv4(),
+    icon: <IoIosAddCircle />,
+    reporter: 'Mebele Anna',
+    created: '2022-09-16T09:39:25.595Z',
+    due: '2022-09-16T09:39:25.595Z',
+    stats: '',
+    team: [
+      {
+        name: 'John Doe',
+        image: Lily,
+      },
+      {
+        name: 'Agatha Smith',
+        image: Lily,
+      },
+      {
+        name: 'Lola Rae',
+        image: Lily,
+      },
+    ],
+    value: '89',
+  },
+];
+
+export default projinfo;
+// create table of 5 columns in react, 'recent projects, created, reporter, due and stats'

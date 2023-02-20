@@ -1,4 +1,5 @@
-export { default as ContentHeader } from './ContentHeader';
-export { default as EmailCard } from './EmailCard';
-export { default as EmailList } from './EmailList';
+export { default as AddProj } from './AddProj';
+export { default as MemberCard } from './MemberCard';
+export { default as Avatar } from './Avatar';
+
 
