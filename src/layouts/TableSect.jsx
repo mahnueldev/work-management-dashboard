@@ -1,8 +1,12 @@
 import React from 'react'
+import { Table } from '../components'
+
 
 const TableSect = () => {
   return (
-    <div>TableSect</div>
+    <div>
+      <Table/>
+    </div>
   )
 }
 

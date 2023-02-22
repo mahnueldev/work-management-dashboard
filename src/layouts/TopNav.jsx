@@ -7,7 +7,7 @@ const SideNav = () => {
   const location = useLocation();
 
   return (
-    <section className='bg-light-100 fixed flex flex-row  justify-between h-12 w-screen border-b-2 border-light-300'>
+    <section className='bg-light-100 fixed flex flex-row  justify-between h-12 w-screen border-b-2 border-light-300 z-10 top-0 left-16'>
       <div>
         <ul className='flex flex-row items-center h-12'>
           {topMenuArray.map((item, i) => {

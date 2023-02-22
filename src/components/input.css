@@ -1,0 +1,4 @@
+label input[type="checkbox"]:checked + span {
+  background-color: purple;
+  color: white;
+}

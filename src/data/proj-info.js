@@ -1,15 +1,16 @@
 import { v4 as uuidv4 } from 'uuid';
-import { IoIosAddCircle } from 'react-icons/io';
+
 import Lily from '../images/Lily.jpg';
 
 const projinfo = [
   {
     id: uuidv4(),
-    icon: <IoIosAddCircle />,
+    logo: 'https://rb.gy/i73pbt',
+    title: 'Target',
     reporter: 'Aremu Bisi',
     created: '2022-09-16T09:39:25.595Z',
     due: '2022-09-16T09:39:25.595Z',
-    stats: '',
+    stats: ['in progress'],
     team: [
       {
         name: 'John Doe',
@@ -36,11 +37,12 @@ const projinfo = [
   },
   {
     id: uuidv4(),
-    icon: <IoIosAddCircle />,
+    logo:'https://rb.gy/ffxi2r' ,
+    title: 'Target',
     reporter: 'Tega Rose',
     created: '2022-09-16T09:39:25.595Z',
     due: '2022-09-16T09:39:25.595Z',
-    stats: '',
+    stats: ['closed'],
     team: [
       {
         name: 'John Doe',
@@ -59,11 +61,12 @@ const projinfo = [
   },
   {
     id: uuidv4(),
-    icon: <IoIosAddCircle />,
+    logo: 'https://rb.gy/qyla3e',
+    title: 'Target',
     reporter: 'Mebele Anna',
     created: '2022-09-16T09:39:25.595Z',
     due: '2022-09-16T09:39:25.595Z',
-    stats: '',
+    stats: [ 'open'],
     team: [
       {
         name: 'John Doe',

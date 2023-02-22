@@ -42,7 +42,7 @@ const MemberCard = () => {
             <ul
               className={`w-40 h-52 flex flex-col justify-center ${bgClass} rounded-[20px] ml-4`}
             >
-              <div className='text-3xl ml-4 mb-14'>{item.icon}</div>
+              <img  src={item.logo} alt='' className=' ml-4 mb-14 w-10 rounded-full'/>
               <li key={i} className='flex flex-col text-red-300 text-sm ml-2'>
                 <p className='text-dark-300 text-md'>Team members</p>
                 <Avatar

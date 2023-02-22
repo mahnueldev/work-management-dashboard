@@ -1,8 +1,11 @@
 import React from 'react'
+import { BarChart } from '../components'
 
 const ChartSect = () => {
   return (
-    <div>ChartSect</div>
+    <section className='flex mt-16'>
+<BarChart/>
+    </section>
   )
 }
 

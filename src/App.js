@@ -7,12 +7,12 @@ function App() {
   return (
     <div className='flex flex-col h-screen'>
       <Router>
-        <div className='flex'>
-          <SideNav />
-          <div className='flex-1'>
+        <div>
+        <SideNav />
+          <div>
             <TopNav />
-            <div className='flex'>
-              <div className='flex-1'>
+            <div>
+              <div className='flex-1 ml-12 '>
                 <Routes>
                   <Route path='/' element={<Dashboard />} />
                 </Routes>

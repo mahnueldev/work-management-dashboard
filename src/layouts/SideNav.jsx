@@ -7,7 +7,7 @@ const SideNav = () => {
   const location = useLocation();
 
   return (
-    <section className='bg-light-100 w-16 flex-col justify-center h-screen border-r-2 border-light-300'>
+    <section className='bg-light-100 w-16 flex-col justify-center fixed h-screen border-r-2 border-light-300'>
       <span className='flex justify-center text-3xl mt-2 h-2/6'>
         <IoLogoApple />
       </span>
