@@ -40,7 +40,7 @@ const MemberCard = () => {
         return (
           <>
             <ul
-              className={`w-40 h-52 flex flex-col justify-center ${bgClass} rounded-[20px] ml-4`}
+              className={`w-40 h-60 flex flex-col justify-center ${bgClass} rounded-[20px] ml-4`}
             >
               <img  src={item.logo} alt='' className=' ml-4 mb-14 w-10 rounded-full'/>
               <li key={i} className='flex flex-col text-red-300 text-sm ml-2'>

@@ -2,6 +2,7 @@ import React from 'react';
 import { useLocation } from 'react-router-dom';
 import menuArray from '../data/side-menu-data';
 import { IoLogoApple } from 'react-icons/io';
+import { Link } from 'react-router-dom';
 
 const SideNav = () => {
   const location = useLocation();
@@ -17,14 +18,14 @@ const SideNav = () => {
             const currentLink = location.pathname === item.to;
             return (
               <li key={i} className='mb-8'>
-                <a
+                <Link 
                   className={`text-red-300 ${
                     currentLink ? 'active:text-red-300' : 'text-red_alt-100'
                   }`}
-                  href={item.to}
+                  to={item.to}
                 >
                   <span className='text-3xl'>{item.icon}</span>
-                </a>
+                </Link>
               </li>
             );
           })}

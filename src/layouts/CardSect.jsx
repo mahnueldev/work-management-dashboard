@@ -3,7 +3,7 @@ import { AddProj, MemberCard } from '../components'
 
 const CardSect = () => {
   return (
-    <section className='flex'>
+    <section className='flex items-center'>
         <AddProj/>
         <MemberCard/>
     </section>

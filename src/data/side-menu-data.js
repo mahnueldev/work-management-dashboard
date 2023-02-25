@@ -22,19 +22,19 @@ const menuArray = [
     id: uuidv4(),
     label: 'Message',
     icon: <SiGooglemessages />,
-    to: '/message',
+    to: '#',
   },
   {
     id: uuidv4(),
     label: 'FAQ',
     icon: <FaQuestionCircle />,
-    to: '/FAQ',
+    to: '#',
   },
   {
     id: uuidv4(),
     label: 'Settings',
     icon: <RiSettingsFill />,
-    to: '/settings',
+    to: '#',
   },
 ];
 

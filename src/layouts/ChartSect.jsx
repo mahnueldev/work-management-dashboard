@@ -1,10 +1,13 @@
 import React from 'react'
-import { BarChart } from '../components'
+import { BarChart, DoughnutChart, LineChart } from '../components'
+
 
 const ChartSect = () => {
   return (
-    <section className='flex mt-16'>
+    <section className='flex mt-4 space-x-5 w-full'>
 <BarChart/>
+<LineChart/>
+<DoughnutChart/>
     </section>
   )
 }

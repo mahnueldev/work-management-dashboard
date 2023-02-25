@@ -12,3 +12,18 @@
 ::-webkit-scrollbar-thumb {
     background-color: #7a7d89;
 }
+
+.hide-scroll::-webkit-scrollbar {
+    display: none;
+  }
+
+  .ant-picker-calendar {
+    background-color: #F4A6B4;
+  }
+
+  .ant-picker-cell-selected .ant-picker-cell-inner {
+    background-color: #1890ff;
+    color: #fff;
+  }
+
+  

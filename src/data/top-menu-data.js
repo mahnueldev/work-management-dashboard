@@ -4,27 +4,27 @@ const topMenuArray = [
   {
     id: uuidv4(),
     label: 'All projects',
-    to: '/projects',
+    to: '#',
   },
   {
     id: uuidv4(),
     label: 'Members',
-    to: '/members',
+    to: '#',
   },
   {
     id: uuidv4(),
     label: 'Stats',
-    to: '/stats',
+    to: '#',
   },
   {
     id: uuidv4(),
     label: 'Doc',
-    to: '/doc',
+    to: '#',
   },
   {
     id: uuidv4(),
     label: 'Help',
-    to: '/help',
+    to: '#',
   },
 ];
 

@@ -1,5 +1,5 @@
 import './App.css';
-import { Dashboard } from '../src/pages';
+import { Dashboard, CalenderFull } from '../src/pages';
 import { SideNav, TopNav } from '../src/layouts';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
@@ -15,6 +15,7 @@ function App() {
               <div className='flex-1 ml-12 '>
                 <Routes>
                   <Route path='/' element={<Dashboard />} />
+                  <Route path='/calender' element={<CalenderFull />} />
                 </Routes>
               </div>
             </div>

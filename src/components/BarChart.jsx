@@ -13,7 +13,7 @@ Chart.register(CategoryScale, LinearScale, BarElement, Title, Tooltip);
 
 const BarChart = () => {
   const [showMonthly, setShowMonthly] = useState(true);
-  const [selectedOption, setSelectedOption] = useState(null);
+  const [selectedOption, setSelectedOption] = useState('monthly');
 
   const handleOptionSelect = (option) => {
     setSelectedOption(option);
@@ -91,7 +91,7 @@ const BarChart = () => {
     setShowMonthly(!showMonthly);
   };
   return (
-    <section className='border p-4 h-6/12 w-4/12 '>
+    <section className='border p-4 w-5/6  '>
       <div className='flex w-full justify-between'>
         <div>
           <h3 className=''>MONTHLY STATS</h3>
