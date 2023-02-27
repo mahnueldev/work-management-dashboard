@@ -1,5 +1,5 @@
 {
-  "name": "work-management-dashboard",
+  "name": "workmanagementdashboard",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -21,7 +21,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "npm install && npm install --only=dev && npm run build-site",
+    "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
